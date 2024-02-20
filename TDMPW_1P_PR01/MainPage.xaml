@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_1P_PR01.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="celsius.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="Celsius Image"/>
+
+            <Label
+                Text="Conversion de grados Celsius a Fahrenheit"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1"/>
+
+            <HorizontalStackLayout>
+                <VerticalStackLayout Padding="50,0">
+                    <Label
+                        Text="Ingresa los grados Celsius"
+                        Padding="10,0"/>
+                    <Entry
+                        x:Name="entradaDatosCelsius"
+                        Padding="10,0"/>
+                    <Button
+                        x:Name="btnCelsius"
+                        Text="Celsius"
+                        Clicked="ClickedCelsius"
+                        Padding="10,0"/>
+                    <Label
+                        x:Name="lblResultadoCelsius"
+                        Padding="10,0"/>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Padding="50,0">
+                    <Label
+                        Text="Ingresa los grados Farenheit"
+                        Padding="10,0"/>
+                    <Entry
+                        x:Name="entradaDatosFarenheit"
+                        Padding="10,0"/>
+                    <Button
+                        x:Name="btnFarenheit"
+                        Text="Fahrenheit"
+                        Clicked="ClickedFarenheit"
+                        Padding="10,0"/>
+                    <Label
+                        x:Name="lblResultadoFarenheit"
+                        Padding="10,0"/>
+                </VerticalStackLayout>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
