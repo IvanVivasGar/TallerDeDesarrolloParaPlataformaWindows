@@ -14,43 +14,25 @@
                 SemanticProperties.Description="Celsius Image"/>
 
             <Label
-                Text="Conversion de grados Celsius a Fahrenheit"
+                Text="Conversion de grados Celsius a Farenheit"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1"/>
 
             <HorizontalStackLayout>
-                <VerticalStackLayout Padding="50,0">
+                <VerticalStackLayout>
                     <Label
-                        Text="Ingresa los grados Celsius"
-                        Padding="10,0"/>
+                        Text="Ingresa los grados Farenheit"/>
                     <Entry
                         x:Name="entradaDatosCelsius"
-                        Padding="10,0"/>
+                        Keyboard="Numeric"/>
                     <Button
                         x:Name="btnCelsius"
-                        Text="Celsius"
-                        Clicked="ClickedCelsius"
-                        Padding="10,0"/>
+                        Text="Convertir"
+                        Clicked="ClickedACelsius"/>
                     <Label
-                        x:Name="lblResultadoCelsius"
-                        Padding="10,0"/>
-                </VerticalStackLayout>
-
-                <VerticalStackLayout Padding="50,0">
+                        x:Name="lblResultadoCelsius"/>
                     <Label
-                        Text="Ingresa los grados Farenheit"
-                        Padding="10,0"/>
-                    <Entry
-                        x:Name="entradaDatosFarenheit"
-                        Padding="10,0"/>
-                    <Button
-                        x:Name="btnFarenheit"
-                        Text="Fahrenheit"
-                        Clicked="ClickedFarenheit"
-                        Padding="10,0"/>
-                    <Label
-                        x:Name="lblResultadoFarenheit"
-                        Padding="10,0"/>
+                        x:Name="lblResultadoKelvin"/>
                 </VerticalStackLayout>
             </HorizontalStackLayout>
         </VerticalStackLayout>
