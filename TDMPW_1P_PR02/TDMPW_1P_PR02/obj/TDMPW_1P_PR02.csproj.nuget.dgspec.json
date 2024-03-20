@@ -42,7 +42,7 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.0-rc.1.23419.4, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",

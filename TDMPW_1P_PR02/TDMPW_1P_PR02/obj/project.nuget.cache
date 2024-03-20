@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "E/gduLDzRVXF/jqtHuiw10ANL8puUrDAQYtNRxZBpGFmOrycRzjsZARavXDNFt9UuHZwQueN8DhOAXdx64oa5A==",
+  "dgSpecHash": "aq1Sk9KlUJBWIBBTKuXMbdKXmM0AwUJAoFIEz8M6MAPqwtH0sn5RDGAxh0qyD0SnT87zhI9mNnp5LO9z4mlkPA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ivan Vivas\\Documents\\Repositorios Universidad\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_1P_PR02\\TDMPW_1P_PR02\\TDMPW_1P_PR02.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,7 @@
     "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.extensions.logging.debug\\8.0.0\\microsoft.extensions.logging.debug.8.0.0.nupkg.sha512",
+    "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.extensions.logging.debug\\8.0.0-rc.1.23419.4\\microsoft.extensions.logging.debug.8.0.0-rc.1.23419.4.nupkg.sha512",
     "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\Ivan Vivas\\.nuget\\packages\\microsoft.graphics.win2d\\1.0.5.1\\microsoft.graphics.win2d.1.0.5.1.nupkg.sha512",
