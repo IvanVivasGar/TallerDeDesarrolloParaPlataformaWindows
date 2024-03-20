@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ivan Vivas\\Documents\\Repositorios Universidad\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_1P_PR02\\TDMPW_1P_PR02\\TDMPW_1P_PR02.csproj": {}
+    "C:\\Users\\Ivan Vivas\\Documents\\Universidad\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_1P_PR02\\TDMPW_1P_PR02\\TDMPW_1P_PR02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ivan Vivas\\Documents\\Repositorios Universidad\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_1P_PR02\\TDMPW_1P_PR02\\TDMPW_1P_PR02.csproj": {
+    "C:\\Users\\Ivan Vivas\\Documents\\Universidad\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_1P_PR02\\TDMPW_1P_PR02\\TDMPW_1P_PR02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ivan Vivas\\Documents\\Repositorios Universidad\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_1P_PR02\\TDMPW_1P_PR02\\TDMPW_1P_PR02.csproj",
+        "projectUniqueName": "C:\\Users\\Ivan Vivas\\Documents\\Universidad\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_1P_PR02\\TDMPW_1P_PR02\\TDMPW_1P_PR02.csproj",
         "projectName": "TDMPW_1P_PR02",
-        "projectPath": "C:\\Users\\Ivan Vivas\\Documents\\Repositorios Universidad\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_1P_PR02\\TDMPW_1P_PR02\\TDMPW_1P_PR02.csproj",
+        "projectPath": "C:\\Users\\Ivan Vivas\\Documents\\Universidad\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_1P_PR02\\TDMPW_1P_PR02\\TDMPW_1P_PR02.csproj",
         "packagesPath": "C:\\Users\\Ivan Vivas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ivan Vivas\\Documents\\Repositorios Universidad\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_1P_PR02\\TDMPW_1P_PR02\\obj\\",
+        "outputPath": "C:\\Users\\Ivan Vivas\\Documents\\Universidad\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_1P_PR02\\TDMPW_1P_PR02\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -46,11 +51,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.6, )"
             }
           },
           "imports": [
@@ -78,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

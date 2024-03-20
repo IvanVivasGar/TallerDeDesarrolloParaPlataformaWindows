@@ -2,23 +2,8 @@
 
 public partial class MainPage : ContentPage
 {
-	int count = 0;
-
-	public MainPage()
-	{
-		InitializeComponent();
-	}
-
-	private void OnCounterClicked(object sender, EventArgs e)
-	{
-		count++;
-
-		if (count == 1)
-			CounterBtn.Text = $"Clicked {count} time";
-		else
-			CounterBtn.Text = $"Clicked {count} times";
-
-		SemanticScreenReader.Announce(CounterBtn.Text);
+	private void ClickedCalcular(object sender, EventArgs e){
+		double iva = (double.Parse(this.entryTasa.Text) * double.Parse(this.entryMonto.Text)) * 100;
+		this.lblResultado.Text = "El IVA es de: " + iva;
 	}
 }
-
