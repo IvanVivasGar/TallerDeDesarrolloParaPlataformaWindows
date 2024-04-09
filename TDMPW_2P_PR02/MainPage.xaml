@@ -5,25 +5,25 @@
              Title = "TDMPW_2P_PR02">
 
     <ContentPage
-        Title = "Conversion de Moneda"
-        IconImageSource = "">
+        Title = "Conversión de Moneda"
+        IconImageSource = "home.png">
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition>
-                <RowDefinition>
-                <RowDefinition>
-                <RowDefinition>
-                <RowDefinition>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition>
-                <ColumnDefinition>
-                <ColumnDefinition>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
             <Label
-                ColumnSpan = "3"
+                Grid.ColumnSpan = "3"
                 Text = "Conversion de Moneda"
                 HorizontalOptions = "Center"
                 VerticalOptions = "Center"
@@ -32,20 +32,20 @@
 
             <Label
                 Grid.Row = "1"
-                ColumnSpan = "3"
+                Grid.ColumnSpan = "3"
                 Text = "BIENVENIDO"
                 HorizontalOptions = "Center"
                 VerticalOptions = "Center"
                 FontSize = "Medium"/>
 
             <Image
-                Source = ""
+                Source = "exchange.webp"
                 HeightRequest = "500"
                 WidthRequest = "500"
                 Aspect = "AspectFill"
                 Grid.Row = "2"
-                RowSpan = "2"
-                ColumnSpan = "3"
+                Grid.RowSpan = "2"
+                Grid.ColumnSpan = "3"
                 HorizontalOptions = "Center"
                 VerticalOptions = "Center"/>
         </Grid>
@@ -53,104 +53,213 @@
 
     <ContentPage
         Title = "Libra"
-        IconImageSource = "">
+        IconImageSource = "pound.png">
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition>
-                <RowDefinition>
-                <RowDefinition>
-                <RowDefinition>
-                <RowDefinition>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition>
-                <ColumnDefinition>
-                <ColumnDefinition>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
             </Grid.ColumnDefinitions>
+
+            <Label
+                Grid.ColumnSpan = "3"
+                Text = "LIBRA"
+                HorizontalOptions = "Center"
+                VerticalOptions = "Center"
+                FontSize = "Large"
+                FontAttributes = "Bold"/>
+
+            <Image
+                Source = "uk.png"
+                Grid.Row = "1"
+                Grid.RowSpan = "2"
+                HeightRequest = "200"
+                WidthRequest = "200"
+                VerticalOptions = "Center"
+                HorizontalOptions = "Center"/>
+
+            <Label
+                Grid.Column = "1"
+                Grid.Row = "1"
+                Grid.RowSpan = "2"
+                Text = "Ingrese la cantidad de pesos"
+                HorizontalOptions = "Center"
+                VerticalOptions = "Center"/>
+
+            <Entry
+                x:Name = "entryLibra"
+                Grid.Row = "2"
+                Grid.ColumnSpan = "2"
+                Grid.Column = "1"
+                VerticalOptions = "Center"
+                HorizontalOptions = "Center"
+                WidthRequest = "600"/>
+
+            <Button
+                x:Name = "btnConvertirLibra"
+                Text = "Convertir"
+                Grid.Row = "3"
+                Grid.ColumnSpan = "3"
+                Clicked = "ClickedConvertirLibra"/>
+
+            <Label
+                x:Name = "lblResultadoLibra"
+                Text = "Resultado"
+                Grid.Row = "4"
+                Grid.ColumnSpan = "3"
+                VerticalOptions = "Center"
+                HorizontalOptions = "Center"
+                FontSize = "Medium"
+                FontAttributes = "Bold"/>
         </Grid>
-
-        <Label
-            ColumnSpan = "3"
-            Text = "LIBRA"
-            HorizontalOptions = "Center"
-            VerticalOptions = "Center"
-            FontSize = "Large"
-            FontAttributes = "Bold"/>
-
-        <Image
-            Source = ""
-            Grid.Row = "1"
-            RowSpan = "2"
-            HeightRequest = "200"
-            WidthRequest = "200"
-            VerticalOptions = "Center"
-            HorizontalOptions = "Center"/>
-
-        <Label
-            Grid.Column = "1"
-            Grid.Row = "1"
-            RowSpan = "2"
-            Text = "Ingrese la cantidad de pesos"
-            HorizontalOptions = "Center"
-            VerticalOptions = "Center"/>
-
-        <Entry
-            />
     </ContentPage>
 
     <ContentPage
         Title = "Euro"
-        IconImageSource = "">
+        IconImageSource = "euro.png">
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition>
-                <RowDefinition>
-                <RowDefinition>
-                <RowDefinition>
-                <RowDefinition>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition>
-                <ColumnDefinition>
-                <ColumnDefinition>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
             <Label
-                ColumnSpan = "3"
+                Grid.ColumnSpan = "3"
                 Text = "EURO"
                 HorizontalOptions = "Center"
                 VerticalOptions = "Center"
                 FontSize = "Large"
+                FontAttributes = "Bold"/>
+
+            <Image
+                Source = "europe.png"
+                Grid.Row = "1"
+                Grid.RowSpan = "2"
+                HeightRequest = "200"
+                WidthRequest = "200"
+                VerticalOptions = "Center"
+                HorizontalOptions = "Center"/>
+
+            <Label
+                Grid.Column = "1"
+                Grid.Row = "1"
+                Grid.RowSpan = "2"
+                Text = "Ingrese la cantidad de pesos"
+                HorizontalOptions = "Center"
+                VerticalOptions = "Center"/>
+
+            <Entry
+                x:Name = "entryEuro"
+                Grid.Row = "2"
+                Grid.ColumnSpan = "2"
+                Grid.Column = "1"
+                VerticalOptions = "Center"
+                HorizontalOptions = "Center"
+                WidthRequest = "600"/>
+
+            <Button
+                x:Name = "btnConvertirEuro"
+                Text = "Convertir"
+                Grid.Row = "3"
+                Grid.ColumnSpan = "3"
+                Clicked = "ClickedConvertirEuro"/>
+
+            <Label
+                x:Name = "lblResultadoEuro"
+                Text = "Resultado"
+                Grid.Row = "4"
+                Grid.ColumnSpan = "3"
+                VerticalOptions = "Center"
+                HorizontalOptions = "Center"
+                FontSize = "Medium"
                 FontAttributes = "Bold"/>
         </Grid>
     </ContentPage>
 
     <ContentPage
         Title = "Dolar"
-        IconImageSource = "">
+        IconImageSource = "dollar.png">
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition>
-                <RowDefinition>
-                <RowDefinition>
-                <RowDefinition>
-                <RowDefinition>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition>
-                <ColumnDefinition>
-                <ColumnDefinition>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
             <Label
-                ColumnSpan = "3"
+                Grid.ColumnSpan = "3"
                 Text = "DOLAR"
                 HorizontalOptions = "Center"
                 VerticalOptions = "Center"
                 FontSize = "Large"
+                FontAttributes = "Bold"/>
+
+            <Image
+                Source = "usa.webp"
+                Grid.Row = "1"
+                Grid.RowSpan = "2"
+                HeightRequest = "200"
+                WidthRequest = "200"
+                VerticalOptions = "Center"
+                HorizontalOptions = "Center"/>
+
+            <Label
+                Grid.Column = "1"
+                Grid.Row = "1"
+                Grid.RowSpan = "2"
+                Text = "Ingrese la cantidad de pesos"
+                HorizontalOptions = "Center"
+                VerticalOptions = "Center"/>
+
+            <Entry
+                x:Name = "entryDolar"
+                Grid.Row = "2"
+                Grid.ColumnSpan = "2"
+                Grid.Column = "1"
+                VerticalOptions = "Center"
+                HorizontalOptions = "Center"
+                WidthRequest = "600"/>
+
+            <Button
+                x:Name = "btnConvertirDolar"
+                Text = "Convertir"
+                Grid.Row = "3"
+                Grid.ColumnSpan = "3"
+                Clicked = "ClickedConvertirDolar"/>
+
+            <Label
+                x:Name = "lblResultadoDolar"
+                Text = "Resultado"
+                Grid.Row = "4"
+                Grid.ColumnSpan = "3"
+                VerticalOptions = "Center"
+                HorizontalOptions = "Center"
+                FontSize = "Medium"
                 FontAttributes = "Bold"/>
         </Grid>
     </ContentPage>
