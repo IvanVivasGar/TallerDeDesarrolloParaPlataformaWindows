@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_2P_PR02.MainPage"
+             Title = "TDMPW_2P_PR02">
+
+    <ContentPage
+        Title = "Conversion de Moneda"
+        IconImageSource = "">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition>
+                <RowDefinition>
+                <RowDefinition>
+                <RowDefinition>
+                <RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition>
+                <ColumnDefinition>
+                <ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Label
+                ColumnSpan = "3"
+                Text = "Conversion de Moneda"
+                HorizontalOptions = "Center"
+                VerticalOptions = "Center"
+                FontSize = "Large"
+                FontAttributes = "Bold"/>
+
+            <Label
+                Grid.Row = "1"
+                ColumnSpan = "3"
+                Text = "BIENVENIDO"
+                HorizontalOptions = "Center"
+                VerticalOptions = "Center"
+                FontSize = "Medium"/>
+
+            <Image
+                Source = ""
+                HeightRequest = "500"
+                WidthRequest = "500"
+                Aspect = "AspectFill"
+                Grid.Row = "2"
+                RowSpan = "2"
+                ColumnSpan = "3"
+                HorizontalOptions = "Center"
+                VerticalOptions = "Center"/>
+        </Grid>
+    </ContentPage>
+
+    <ContentPage
+        Title = "Libra"
+        IconImageSource = "">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition>
+                <RowDefinition>
+                <RowDefinition>
+                <RowDefinition>
+                <RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition>
+                <ColumnDefinition>
+                <ColumnDefinition>
+            </Grid.ColumnDefinitions>
+        </Grid>
+
+        <Label
+            ColumnSpan = "3"
+            Text = "LIBRA"
+            HorizontalOptions = "Center"
+            VerticalOptions = "Center"
+            FontSize = "Large"
+            FontAttributes = "Bold"/>
+
+        <Image
+            Source = ""
+            Grid.Row = "1"
+            RowSpan = "2"
+            HeightRequest = "200"
+            WidthRequest = "200"
+            VerticalOptions = "Center"
+            HorizontalOptions = "Center"/>
+
+        <Label
+            Grid.Column = "1"
+            Grid.Row = "1"
+            RowSpan = "2"
+            Text = "Ingrese la cantidad de pesos"
+            HorizontalOptions = "Center"
+            VerticalOptions = "Center"/>
+
+        <Entry
+            />
+    </ContentPage>
+
+    <ContentPage
+        Title = "Euro"
+        IconImageSource = "">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition>
+                <RowDefinition>
+                <RowDefinition>
+                <RowDefinition>
+                <RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition>
+                <ColumnDefinition>
+                <ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Label
+                ColumnSpan = "3"
+                Text = "EURO"
+                HorizontalOptions = "Center"
+                VerticalOptions = "Center"
+                FontSize = "Large"
+                FontAttributes = "Bold"/>
+        </Grid>
+    </ContentPage>
+
+    <ContentPage
+        Title = "Dolar"
+        IconImageSource = "">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition>
+                <RowDefinition>
+                <RowDefinition>
+                <RowDefinition>
+                <RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition>
+                <ColumnDefinition>
+                <ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Label
+                ColumnSpan = "3"
+                Text = "DOLAR"
+                HorizontalOptions = "Center"
+                VerticalOptions = "Center"
+                FontSize = "Large"
+                FontAttributes = "Bold"/>
+        </Grid>
+    </ContentPage>
+</TabbedPage>
