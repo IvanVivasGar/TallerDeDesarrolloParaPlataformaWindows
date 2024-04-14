@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TDMPW_2P_PR02")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a9e5d1c15f4b622ed89bfb1f7c34d49578001127")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f296e5769b74111c81d70cf161a26ab28a184568")]
 [assembly: System.Reflection.AssemblyProductAttribute("TDMPW_2P_PR02")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TDMPW_2P_PR02")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
