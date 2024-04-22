@@ -9,26 +9,25 @@
         Title = "Bienvenida">
         <VerticalStackLayout>
             <Frame
-                BorderColor = "Black"
-                CornerRadius = "100"
-                HeightRequest = "200"
-                WidthRequest = "200"
-                HorizontalOptions = "Center"
-                IsClippedToBounds = "True"
-                Margin = "0, 15">
-                <Image
-                    Source = "hfw_bienvenida.jpg"
-                    Aspect = "AspectFill"
-                    HeightRequest = "400"
-                    WidthRequest = "400"
-                    Margin = "0, 10"/>
-            </Frame>
-
-            <Frame
                 BorderColor = "Gray"
                 CornerRadius = "10"
                 Margin = "15, 0">
                 <StackLayout>
+                    <Frame
+                        BorderColor = "Black"
+                        CornerRadius = "100"
+                        HeightRequest = "200"
+                        WidthRequest = "200"
+                        HorizontalOptions = "Center"
+                        IsClippedToBounds = "True"
+                        Margin = "0, 15">
+                        <Image
+                            Source = "hzd_bienvenida.jpg"
+                            Aspect = "AspectFill"
+                            HeightRequest = "250"
+                            WidthRequest = "250"
+                            Margin = "0, 10"/>
+                    </Frame>
                     <Label
                         Text = "Horizon Forbbiden West"
                         FontSize = "20"
@@ -50,81 +49,209 @@
     <ContentPage
         Title = "Aloy">
         <VerticalStackLayout>
-            <Frame
-                BorderColor = "Black"
-                CornerRadius = "100"
-                HeightRequest = "200"
-                WidthRequest = "200"
-                HorizontalOptions = "Center"
-                IsClippedToBounds = "True"
-                Margin = "0, 15">
-                <Image
-                    Source = "aloy.png"
-                    Aspect = "AspectFill"
-                    HeightRequest = "400"
-                    WidthRequest = "400"
-                    Margin = "0, 10"/>
-            </Frame>
-            <Frame
-                BorderColor = "Gray"
-                CornerRadius = "10"
-                Margin = "15, 0">
-                <StackLayout>
-                    <Label
-                        Text = "Aloy"
-                        FontSize = "20"
-                        Margin = "0, 10"/>
-                    <BoxView
-                        Color = "Gray"
-                        HeightRequest = "2"
-                        HorizontalOptions = "Fill"/>
-                    <Label
-                        Text = "The main protagonist of Horizon Zero Dawn and Horizon Forbidden West. She was born in the 31st century, a time where humans live in small, primitive tribes, and the more technologically-advanced humans of the past are known as the Old Ones. She is a Nora Brave and machine hunter who is later discovered to be the exact genectic clone of the 21st centery scientist Dr. Elisabet Sobeck. Throughout most of her life she is often mistreated by others, due to her status as an outcast. This results in her forming strong relationship with Rost, despite being her adoptive father."
-                        Margin = "0, 10"
-                        FontSize = "15"/>
-                </StackLayout>
-            </Frame>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Frame
+                    BorderColor = "Gray"
+                    CornerRadius = "10"
+                    Margin = "15, 0"
+                    Grid.ColumnSpan = "2">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <Frame
+                            BorderColor = "Black"
+                            CornerRadius = "100"
+                            HeightRequest = "200"
+                            WidthRequest = "200"
+                            HorizontalOptions = "Center"
+                            IsClippedToBounds = "True"
+                            Margin = "0, 15">
+                            <Image
+                                Source = "aloy.jpg"
+                                Aspect = "AspectFill"
+                                HeightRequest = "250"
+                                WidthRequest = "250"
+                                Margin = "0, 10"/>
+                        </Frame>
+
+                        <StackLayout
+                            Grid.Column = "1"
+                            VerticalOptions = "Center">
+                            <Label
+                                Text = "Aloy"
+                                FontSize = "20"
+                                Margin = "0, 10"/>
+                            <BoxView
+                                Color = "Gray"
+                                HeightRequest = "2"
+                                HorizontalOptions = "Fill"/>
+                        </StackLayout>
+                        <Label
+                            Text = "The main protagonist of Horizon Zero Dawn and Horizon Forbidden West. She was born in the 31st century, a time where humans live in small, primitive tribes, and the more technologically-advanced humans of the past are known as the Old Ones. She is a Nora Brave and machine hunter who is later discovered to be the exact genectic clone of the 21st centery scientist Dr. Elisabet Sobeck. Throughout most of her life she is often mistreated by others, due to her status as an outcast. This results in her forming strong relationship with Rost, despite being her adoptive father."
+                            Margin = "0, 10"
+                            FontSize = "15"
+                            Grid.Row = "1"
+                            Grid.ColumnSpan = "2"/>
+                    </Grid>
+                </Frame>
+                    <!-- Seccion de botones -->
+                <Grid
+                    Grid.Row = "1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <ImageButton
+                        x:Name = "likeAloy"
+                        Clicked = "ClickedLikeAloy"
+                        Source = "like.png"
+                        HorizontalOptions = "Center"
+                        VerticalOptions = "Center"
+                        HeightRequest = "50"
+                        WidthRequest = "50"
+                        Margin = "0, 5"/>
+                    <ImageButton
+                        x:Name = "dislikeAloy"
+                        Clicked = "ClickedDislikeAloy"
+                        Source = "dislike.png"
+                        HorizontalOptions = "Center"
+                        VerticalOptions = "Center"
+                        Grid.Column = "1"
+                        HeightRequest = "50"
+                        WidthRequest = "50"
+                        Margin = "0, 5"/>
+                </Grid>
+
+                <Label
+                    Text = "Te gusto / No te gusto este personaje"
+                    VerticalOptions = "Center"
+                    HorizontalOptions = "Center"
+                    Grid.Row = "1"
+                    Grid.Column = "1"/>
+            </Grid>
         </VerticalStackLayout>
     </ContentPage>
 
         <!-- BIOGRAFIA DEL PERSONAJE 2 -->
     <ContentPage
-        Title = "Beta">
+        Title = "Sylens">
         <VerticalStackLayout>
-            <Frame
-                BorderColor = "Black"
-                CornerRadius = "100"
-                HeightRequest = "200"
-                WidthRequest = "200"
-                HorizontalOptions = "Center"
-                IsClippedToBounds = "True"
-                Margin = "0, 15">
-                <Image
-                    Source = "beta.webp"
-                    Aspect = "AspectFill"
-                    HeightRequest = "400"
-                    WidthRequest = "400"
-                    Margin = "0, 10"/>
-            </Frame>
-            <Frame
-                BorderColor = "Gray"
-                CornerRadius = "10"
-                Margin = "15, 0">
-                <StackLayout>
-                    <Label
-                        Text = "Beta"
-                        FontSize = "20"
-                        Margin = "0, 10"/>
-                    <BoxView
-                        Color = "Gray"
-                        HeightRequest = "2"
-                        HorizontalOptions = "Fill"/>
-                    <Label
-                        Text = "The introduction of Beta is a shock to not only Aloy and her friends but players too. Another clone of Elisabet Sobeck, Beta is Aloy’s genetic twin, created for the same purpose – to use her biological signature to access GAIA’s subfunctions and other Zero Dawn and Faro facilities."
-                        Margin = "0, 10"
-                        FontSize = "15"/>
-                </StackLayout>
-            </Frame>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Frame
+                    BorderColor = "Gray"
+                    CornerRadius = "10"
+                    Margin = "15, 0"
+                    Grid.ColumnSpan = "2">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <Frame
+                            BorderColor = "Black"
+                            CornerRadius = "100"
+                            HeightRequest = "200"
+                            WidthRequest = "200"
+                            HorizontalOptions = "Center"
+                            IsClippedToBounds = "True"
+                            Margin = "0, 15">
+                            <Image
+                                Source = "sylens.jpg"
+                                Aspect = "AspectFill"
+                                HeightRequest = "250"
+                                WidthRequest = "250"
+                                Margin = "0, 10"/>
+                        </Frame>
+
+                        <StackLayout
+                            Grid.Column = "1"
+                            VerticalOptions = "Center">
+                            <Label
+                                Text = "Sylens"
+                                FontSize = "20"
+                                Margin = "0, 10"/>
+                            <BoxView
+                                Color = "Gray"
+                                HeightRequest = "2"
+                                HorizontalOptions = "Fill"/>
+                        </StackLayout>
+                        <Label
+                            Text = "Sylens is the deuteragonist of Horizon Zero Dawn and a returning character in Horizon Forbidden West. He is a wandering traveler, archaeologist and researcher, and the founder of the Eclipse and the Sons of Prometheus. He has a deep fascination with the history and technology of the Old Ones, and allies with Aloy to discover the truth behind the machines and the fate of the Old Ones."
+                            Margin = "0, 10"
+                            FontSize = "15"
+                            Grid.Row = "1"
+                            Grid.ColumnSpan = "2"/>
+                    </Grid>
+                </Frame>
+                    <!-- Seccion de botones -->
+                <Grid
+                    Grid.Row = "1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <ImageButton
+                        x:Name = "likeSylens"
+                        Clicked = "ClickedLikeSylens"
+                        Source = "like.png"
+                        HorizontalOptions = "Center"
+                        VerticalOptions = "Center"
+                        HeightRequest = "50"
+                        WidthRequest = "50"
+                        Margin = "0, 5"/>
+                    <ImageButton
+                        x:Name = "dislikeSylens"
+                        Clicked = "ClickedDislikeSylens"
+                        Source = "dislike.png"
+                        HorizontalOptions = "Center"
+                        VerticalOptions = "Center"
+                        Grid.Column = "1"
+                        HeightRequest = "50"
+                        WidthRequest = "50"
+                        Margin = "0, 5"/>
+                </Grid>
+
+                <Label
+                    Text = "Te gusto / No te gusto este personaje"
+                    VerticalOptions = "Center"
+                    HorizontalOptions = "Center"
+                    Grid.Row = "1"
+                    Grid.Column = "1"/>
+            </Grid>
         </VerticalStackLayout>
     </ContentPage>
 </TabbedPage>
