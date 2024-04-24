@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ivan Vivas\\Documents\\Repositorios Git\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_2P_PR03\\TDMPW_2P_PR03.csproj": {}
+    "C:\\Users\\Ivan Vivas\\Documents\\RepositoriosUniversidad\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_2P_PR03\\TDMPW_2P_PR03.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ivan Vivas\\Documents\\Repositorios Git\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_2P_PR03\\TDMPW_2P_PR03.csproj": {
+    "C:\\Users\\Ivan Vivas\\Documents\\RepositoriosUniversidad\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_2P_PR03\\TDMPW_2P_PR03.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ivan Vivas\\Documents\\Repositorios Git\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_2P_PR03\\TDMPW_2P_PR03.csproj",
+        "projectUniqueName": "C:\\Users\\Ivan Vivas\\Documents\\RepositoriosUniversidad\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_2P_PR03\\TDMPW_2P_PR03.csproj",
         "projectName": "TDMPW_2P_PR03",
-        "projectPath": "C:\\Users\\Ivan Vivas\\Documents\\Repositorios Git\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_2P_PR03\\TDMPW_2P_PR03.csproj",
+        "projectPath": "C:\\Users\\Ivan Vivas\\Documents\\RepositoriosUniversidad\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_2P_PR03\\TDMPW_2P_PR03.csproj",
         "packagesPath": "C:\\Users\\Ivan Vivas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ivan Vivas\\Documents\\Repositorios Git\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_2P_PR03\\obj\\",
+        "outputPath": "C:\\Users\\Ivan Vivas\\Documents\\RepositoriosUniversidad\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_2P_PR03\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -44,11 +44,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -70,7 +65,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.4, )",
+              "version": "[8.0.1, )",
               "autoReferenced": true
             }
           },
@@ -93,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-maccatalyst17.2": {
           "targetAlias": "net8.0-maccatalyst",
@@ -113,7 +108,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.4, )",
+              "version": "[8.0.1, )",
               "autoReferenced": true
             }
           },
@@ -137,7 +132,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
@@ -180,7 +175,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
