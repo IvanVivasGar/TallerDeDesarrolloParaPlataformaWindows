@@ -396,3 +396,17 @@ C:\Users\Ivan Vivas\Documents\RepositoriosUniversidad\TallerDeDesarrolloParaPlat
 C:\Users\Ivan Vivas\Documents\RepositoriosUniversidad\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EJ04\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 C:\Users\Ivan Vivas\Documents\RepositoriosUniversidad\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EJ04\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\Ivan Vivas\Documents\RepositoriosUniversidad\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EJ04\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Ivan Vivas\Documents\RepositoriosUniversidad\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EJ04\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\marker.scale-100.png
+C:\Users\Ivan Vivas\Documents\RepositoriosUniversidad\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EJ04\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\star.scale-100.png
+C:\Users\Ivan Vivas\Documents\RepositoriosUniversidad\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EJ04\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\mapa.scale-100.jpg
+C:\Users\Ivan Vivas\Documents\RepositoriosUniversidad\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EJ04\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\salle.scale-100.jpeg
+C:\Users\Ivan Vivas\Documents\RepositoriosUniversidad\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EJ04\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\home.scale-100.png
+C:\Users\Ivan Vivas\Documents\RepositoriosUniversidad\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EJ04\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\set.scale-100.png
+C:\Users\Ivan Vivas\Documents\RepositoriosUniversidad\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EJ04\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\instalaciones.scale-100.jpg
+C:\Users\Ivan Vivas\Documents\RepositoriosUniversidad\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EJ04\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\marker.scale-100.png
+C:\Users\Ivan Vivas\Documents\RepositoriosUniversidad\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EJ04\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star.scale-100.png
+C:\Users\Ivan Vivas\Documents\RepositoriosUniversidad\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EJ04\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mapa.scale-100.jpg
+C:\Users\Ivan Vivas\Documents\RepositoriosUniversidad\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EJ04\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\salle.scale-100.jpeg
+C:\Users\Ivan Vivas\Documents\RepositoriosUniversidad\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EJ04\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png
+C:\Users\Ivan Vivas\Documents\RepositoriosUniversidad\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EJ04\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\set.scale-100.png
+C:\Users\Ivan Vivas\Documents\RepositoriosUniversidad\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EJ04\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\instalaciones.scale-100.jpg

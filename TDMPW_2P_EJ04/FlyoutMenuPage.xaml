@@ -14,6 +14,14 @@
                             Title = "INICIO"
                             IconSource = "dotnet_bot.png"
                             TargetType = "{x:Type local:MainPage}"/>
+                        <local:FlyoutPageItem
+                            Title = "DESTACADOS"
+                            IconSource = "star.png"
+                            TargetType = "{x:Type local:DestacadosPage}"/>
+                        <local:FlyoutPageItem
+                            Title = "MAPA"
+                            IconSource = "marker.png"
+                            TargetType = "{x:Type local:MapaPage}"/>
                     </x:Array>
                 </CollectionView.ItemsSource>
 
