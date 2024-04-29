@@ -4,9 +4,9 @@
              x:Class="TDMPW_2P_EJ04.MapaPage"
              Title="MapaPage">
     <VerticalStackLayout>
-        <Label 
+        <Label
             Text="MAPA"
-            VerticalOptions="Center" 
+            VerticalOptions="Center"
             HorizontalOptions="Center" />
     </VerticalStackLayout>
 </ContentPage>
