@@ -6,4 +6,10 @@ public partial class DolarPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+	public void ClickedConvertirDolar(object sender, EventArgs e)
+	{
+		double resultadoConversion = double.Parse(this.entryDolar.Text) * 0.061;
+		this.lblResultadoDolar.Text = this.entryDolar.Text + " pesos equivalen a: " + resultadoConversion + " dolares.";
+	}
 }

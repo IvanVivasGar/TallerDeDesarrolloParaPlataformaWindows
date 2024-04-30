@@ -6,4 +6,10 @@ public partial class EuroPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+	public void ClickedConvertirEuro(object sender, EventArgs e)
+	{
+		double resultadoConversion = double.Parse(this.entryEuro.Text) * 0.057;
+		this.lblResultadoEuro.Text = this.entryEuro.Text + " pesos equivalen a: " + resultadoConversion + " euros.";
+	}
 }
