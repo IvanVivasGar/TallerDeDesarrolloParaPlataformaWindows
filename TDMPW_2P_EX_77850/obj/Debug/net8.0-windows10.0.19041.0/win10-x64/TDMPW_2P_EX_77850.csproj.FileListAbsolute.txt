@@ -416,3 +416,13 @@ C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaW
 C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\coffeeicon.scale-100.png
 C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\shop.scale-100.png
 C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\coffeeicon.scale-100.png
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu4.scale-100.jpeg
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu2.scale-100.jpeg
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu3.scale-100.jpeg
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu1.scale-100.jpeg
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\menu1.scale-100.jpeg
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\menu2.scale-100.jpeg
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\menu3.scale-100.jpeg
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\menu4.scale-100.jpeg
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\lock.scale-100.png
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\lock.scale-100.png
