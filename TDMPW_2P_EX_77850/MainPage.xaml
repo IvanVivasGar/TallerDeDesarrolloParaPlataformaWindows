@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_2P_EX_77850.MainPage">
+
+    <ContentPage
+        Title = "Inicio"
+        IconImageSource = "star.png">
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition
+                        Height = "200"/>
+                    <RowDefinition
+                        Height = "*"/>
+                </Grid.RowDefinitions>
+
+                    <!-- HEADER DE LA PAGINA DE INICIO -->
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition
+                            Height = "40"/>
+                        <RowDefinition
+                            Height = "5"/>
+                        <RowDefinition
+                            Height = "5"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition
+                            Width = "180"/>
+                        <ColumnDefinition
+                            Width = "180"/>
+                        <ColumnDefinition
+                            Width = "40"/>
+                        <ColumnDefinition
+                            Width = "*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <HorizontalStackLayout
+                        Grid.ColumnSpan = "4">
+                        <Label
+                            Text = "Bienvenido (a)"
+                            Style = "{StaticResource Headline}"
+                            SemanticProperties.HeadingLevel = "Level1"
+                            Grid.ColumnSpan = "4"
+                            VerticalOptions = "Center"
+                            HorizontalOptions = "Start"
+                            Padding = "25, 0, 25, 0"/>
+                        <Image
+                            Source = "coffee.png"
+                            WidthRequest = "40"
+                            HeightRequest = "40"
+                            Aspect = "AspectFill"
+                            VerticalOptions = "Center"/>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout
+                        Grid.Row = "1"
+                        Padding = "15, 0, 15, 0">
+                        <Image
+                            Source = "login.png"
+                            WidthRequest = "30"
+                            HeightRequest = "30"
+                            Aspect = "AspectFill"/>
+                        <Label
+                            Text = "Ingresar"
+                            Style = "{StaticResource Headline}"
+                            FontSize = "Medium"
+                            VerticalOptions = "Center"
+                            Padding = "15, 0, 15, 0"/>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout
+                        Grid.Row = "1"
+                        Grid.Column = "1"
+                        Padding = "15, 0, 15, 0">
+                        <Image
+                            Source = "inbox.png"
+                            WidthRequest = "30"
+                            HeightRequest = "30"
+                            Aspect = "AspectFill"/>
+                        <Label
+                            Text = "Inbox"
+                            Style = "{StaticResource Headline}"
+                            FontSize = "Medium"
+                            VerticalOptions = "Center"
+                            Padding = "15, 0, 15, 0"/>
+                    </HorizontalStackLayout>
+
+                    <Grid
+                        Grid.Row = "1"
+                        Grid.Column = "2"
+                        Padding = "15, 0, 15, 0"
+                        BackgroundColor = "Transparent">
+                        <Image
+                            Source = "share.png"
+                            WidthRequest = "30"
+                            HeightRequest = "30"
+                            Aspect = "AspectFill"
+                            HorizontalOptions = "Start"/>
+                    </Grid>
+
+                    <Grid
+                        Grid.Row = "1"
+                        Grid.Column = "3"
+                        Padding = "15, 0, 15, 0"
+                        BackgroundColor = "Transparent">
+                        <Image
+                            Source = "settings.png"
+                            WidthRequest = "30"
+                            HeightRequest = "30"
+                            Aspect = "AspectFill"
+                            HorizontalOptions = "End"/>
+                    </Grid>
+
+                    <BoxView
+                        HeightRequest="10"
+                        VerticalOptions="Start"
+                        BackgroundColor="Transparent"
+                        Grid.Row = "3"
+                        Grid.ColumnSpan = "4">
+                        <BoxView.Background>
+                            <LinearGradientBrush StartPoint="0.5, 0" EndPoint="0.5, 1">
+                                <GradientStop Color="Black" Offset="0.0" />
+                                <GradientStop Color="Transparent" Offset="1.0" />
+                            </LinearGradientBrush>
+                        </BoxView.Background>
+                    </BoxView>
+                </Grid>
+
+                <!-- CONTENIDO DE LA PAGINA DE INICIO -->
+                <VerticalStackLayout
+                    Grid.Row = "1">
+                    <Label
+                        Text = "STARBUCKS REWARDS"
+                        TextColor = "Gray"
+                        Padding = "20, 0, 0, 0"
+                        HorizontalOptions = "Start"
+                        VerticalOptions = "Start"
+                        FontSize = "Micro"/>
+                    <Frame
+                        Padding = "10, 25"
+                        CornerRadius = "2"
+                        IsClippedToBounds = "True"
+                        BackgroundColor = "Transparent">
+                        <Image
+                            Source = "imagen2.jpg"
+                            HorizontalOptions = "Start"
+                            Aspect = "AspectFill"/>
+                    </Frame>
+                    <Label
+                        Text = "Obten bebidas gratis, alimentos y mas"
+                        Padding = "20, 0, 0, 0"
+                        HorizontalOptions = "Start"
+                        VerticalOptions = "Start"
+                        FontSize = "Medium"/>
+
+                    <Frame
+                        Padding = "10, 25"
+                        CornerRadius = "2"
+                        IsClippedToBounds = "True"
+                        BackgroundColor = "Transparent">
+                        <Image
+                            Source = "imagen1.webp"
+                            HorizontalOptions = "Start"
+                            Aspect = "AspectFill"/>
+                    </Frame>
+                </VerticalStackLayout>
+                <Frame
+                    Grid.Row = "1"
+                    Padding = "25"
+                    BackgroundColor = "Transparent">
+                    <Button
+                        Text = "Unete"
+                        HorizontalOptions = "End"
+                        VerticalOptions = "End"
+                        Width = "80"
+                        Height = "50"
+                        BackgroundColor = "Green"
+                        TextColor = "White"/>
+                </Frame>
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+
+    <ContentPage
+        IconImageSource = "coffeeicon.png"
+        Title = "Ordena">
+    </ContentPage>
+
+    <ContentPage
+        IconImageSource = "shop.png"
+        Title = "Pedido">
+    </ContentPage>
+</TabbedPage>
