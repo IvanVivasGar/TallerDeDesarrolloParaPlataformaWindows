@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_2P_EX_77850.MainPage">
+    <ContentPage>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition
+                    Width = "30"/>
+                <ColumnDefinition
+                    Width = "30"/>
+                <ColumnDefinition
+                    Width = "30"/>
+                <ColumnDefinition
+                    Width = "*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition
+                    Height = "20"/>
+                <RowDefinition
+                    Height = "10"/>
+                <RowDefinition
+                    Height = "35"/>
+                <RowDefinition
+                    Height = "*"/>
+            </Grid.RowDefinitions>
+
+            // TITULO DE BIENVENIDA CON ICONO AL LADO
+            <HorizontalStackLayout
+                Grid.ColumnSpan = "4">
+                <Label
+                    Text = "Bienvenido (a)"
+                    VerticalOptions = "Center"
+                    Padding = "10, 0"/>
+                <Image
+                    Source = "coffee.png"/>
+            </HorizontalStackLayout>
+
+            // CONTENIDO DEBAJO DE EL TITULO DE BIENVENIDA
+            // LOS STACKLAYOUT SON PARA UNICAMENTE LOS BOTONES QUE LLEVAN TEXTO AL LADO
+            <HorizontalStackLayout
+                Grid.Row = "1">
+                <Image
+                    Source = "login.png"/>
+                <Label
+                    Text = "Ingresar"
+                    FontSize = "Small"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout
+                Grid.Row = "1"
+                Grid.Column = "1">
+                <Image
+                    Source = "inbox.png"/>
+                <Label
+                    Text = "Inbox"
+                    FontSize = "Small"/>
+            </HorizontalStackLayout>
+
+            <Image
+                Source = "share.png"
+                Grid.Row = "1"
+                Grid.Column = "3"/>
+
+            <Image
+                Source = "settings.png"
+                Grid.Row = "1"
+                Grid.Column = "4"/>
+        </Grid>
+    </ContentPage>
+</TabbedPage>
