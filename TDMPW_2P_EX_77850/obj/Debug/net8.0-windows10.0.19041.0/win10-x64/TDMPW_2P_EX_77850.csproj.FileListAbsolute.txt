@@ -426,3 +426,13 @@ C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaW
 C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\menu4.scale-100.jpeg
 C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\lock.scale-100.png
 C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\lock.scale-100.png
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\backarrow.scale-100.png
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\backarrow.scale-100.png
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\minus.scale-100.png
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add.scale-100.png
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\add.scale-100.png
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\minus.scale-100.png
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\cupon1.scale-100.jpg
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\cupon2.scale-100.jpg
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cupon1.scale-100.jpg
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_2P_EX_77850\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cupon2.scale-100.jpg

@@ -1,5 +1,6 @@
 OpenSans-Regular.ttf
 OpenSans-Semibold.ttf
+add.scale-100.png
 appicon.ico
 appiconLargeTile.scale-100.png
 appiconLargeTile.scale-125.png
@@ -46,8 +47,11 @@ appiconWideTile.scale-125.png
 appiconWideTile.scale-150.png
 appiconWideTile.scale-200.png
 appiconWideTile.scale-400.png
+backarrow.scale-100.png
 coffee.scale-100.png
 coffeeicon.scale-100.png
+cupon1.scale-100.jpg
+cupon2.scale-100.jpg
 dotnet_bot.scale-100.png
 dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
@@ -62,6 +66,7 @@ menu1.scale-100.jpeg
 menu2.scale-100.jpeg
 menu3.scale-100.jpeg
 menu4.scale-100.jpeg
+minus.scale-100.png
 settings.scale-100.png
 share.scale-100.png
 shop.scale-100.png

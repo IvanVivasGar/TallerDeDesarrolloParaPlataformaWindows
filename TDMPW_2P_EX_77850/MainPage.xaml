@@ -421,5 +421,359 @@
     <ContentPage
         IconImageSource = "shop.png"
         Title = "Pedido">
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition
+                        Height = "90"/>
+                    <RowDefinition
+                        Height = "220"/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <HorizontalStackLayout
+                    BackgroundColor = "Black">
+                    <ImageButton
+                        HorizontalOptions = "Start"
+                        VerticalOptions = "Center"
+                        Padding = "15, 0, 25, 0"
+                        Source = "backarrow.png"
+                        HeightRequest = "30"
+                        WidthRequest = "100"
+                        BackgroundColor = "Transparent"
+                        Aspect = "AspectFit"/>
+                    <Label
+                        Text = "Revisar pedido(1)"
+                        TextColor = "White"
+                        FontSize = "Small"
+                        VerticalOptions = "Center"/>
+                </HorizontalStackLayout>
+
+                <Grid
+                    Grid.Row = "1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition
+                            Width = "120"/>
+                        <ColumnDefinition
+                            Width = "*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Frame
+                        BorderColor = "Black"
+                        CornerRadius = "100"
+                        HeightRequest = "100"
+                        WidthRequest = "100"
+                        HorizontalOptions = "Center"
+                        IsClippedToBounds = "True"
+                        Margin = "0, 15"
+                        VerticalOptions = "Start">
+                        <Image
+                            x:Name = "imgProdActual"
+                            Source = "menu1.jpeg"
+                            Aspect = "AspectFit"
+                            HeightRequest = "150"
+                            WidthRequest = "150"
+                            Margin = "0, 10"
+                            HorizontalOptions = "Center"
+                            VerticalOptions = "Center"/>
+                    </Frame>
+
+                    <VerticalStackLayout
+                        Grid.Column = "1"
+                        Padding = "15">
+                        <HorizontalStackLayout>
+                            <Label
+                                x:Name = "lblTitulo"
+                                Text = "Cafe del dia: Chiapas"
+                                Style = "{StaticResource Headline}"
+                                HorizontalOptions = "Start"
+                                FontSize = "20"
+                                FontAttributes = "Bold"/>
+                            <Label
+                                x:Name = "precioArticulo"
+                                Text = "- $ 38.00"
+                                HorizontalOptions = "End"
+                                Padding = "145, 15, 15, 0"
+                                FontSize = "17"/>
+                        </HorizontalStackLayout>
+                        <Label
+                            x:Name = "lblInfo1"
+                            Text = "Grande (16oz - 437ml)"
+                            FontSize = "15"
+                            TextColor = "Gray"
+                            Padding = "3"/>
+                        <Label
+                            x:Name = "lblInfo2"
+                            Text = "0 calorias"
+                            FontSize = "15"
+                            TextColor = "Gray"
+                            Padding = "3"/>
+                        <Label
+                            x:Name = "lblInfo3"
+                            Text = "Sin leche"
+                            FontSize = "15"
+                            TextColor = "Gray"
+                            Padding = "3"/>
+                        <HorizontalStackLayout>
+                            <ImageButton
+                                x:Name = "addProd"
+                                Clicked = "ClickedAdd"
+                                Source = "add.png"
+                                Padding = "20"
+                                HeightRequest = "65"
+                                WidthRequest = "65"
+                                Aspect = "AspectFit"
+                                BackgroundColor = "Transparent"/>
+                            <ImageButton
+                                x:Name = "minusProd"
+                                Clicked = "ClickedMinus"
+                                Source = "minus.png"
+                                Padding = "20"
+                                HeightRequest = "65"
+                                WidthRequest = "65"
+                                Aspect = "AspectFit"
+                                BackgroundColor = "Transparent"/>
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Grid>
+
+                <Grid
+                    Grid.Row = "2"
+                    BackgroundColor = "LightGray">
+                    <Grid.RowDefinitions>
+                        <RowDefinition
+                            Height = "50"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition
+                            Width = "150"/>
+                        <ColumnDefinition
+                            Width = "150"/>
+                        <ColumnDefinition
+                            Width = "150"/>
+                        <ColumnDefinition
+                            Width = "*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <VerticalStackLayout
+                        Grid.ColumnSpan = "4">
+                        <BoxView
+                            HeightRequest="10"
+                            VerticalOptions="Start"
+                            BackgroundColor="Transparent"
+                            Grid.Row = "2"
+                            Grid.ColumnSpan = "3">
+                            <BoxView.Background>
+                                <LinearGradientBrush StartPoint="0.5, 0" EndPoint="0.5, 1">
+                                    <GradientStop Color="Gray" Offset="0.0" />
+                                    <GradientStop Color="Transparent" Offset="1.0" />
+                                </LinearGradientBrush>
+                            </BoxView.Background>
+                        </BoxView>
+
+                        <Label
+                            Text = "TAMBIEN TE PUEDE GUSTAR"
+                            FontSize = "15"
+                            TextColor = "DarkGray"
+                            Padding = "15"
+                            FontAttributes = "Bold"/>
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout
+                        VerticalOptions = "Center"
+                        Grid.Row = "1">
+                        <ImageButton
+                            x:Name = "prod1"
+                            Clicked = "ClickedProd1"
+                            Source = "menu2.jpeg"
+                            Padding = "20"
+                            HeightRequest = "150"
+                            WidthRequest = "150"
+                            Aspect = "AspectFill"
+                            CornerRadius = "100"/>
+                        <Label
+                            Text = "Bebida Uno"
+                            FontAttributes = "Bold"
+                            FontSize = "17"
+                            HorizontalOptions = "Center"/>
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout
+                        VerticalOptions = "Center"
+                        Grid.Row = "1"
+                        Grid.Column = "1">
+                        <ImageButton
+                            x:Name = "prod2"
+                            Source = "menu3.jpeg"
+                            Clicked = "ClickedProd2"
+                            Padding = "20"
+                            HeightRequest = "150"
+                            WidthRequest = "150"
+                            Aspect = "AspectFill"
+                            CornerRadius = "100"/>
+                        <Label
+                            Text = "Bebida Dos"
+                            FontAttributes = "Bold"
+                            FontSize = "17"
+                            HorizontalOptions = "Center"/>
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout
+                        VerticalOptions = "Center"
+                        Grid.Row = "1"
+                        Grid.Column = "2">
+                        <ImageButton
+                            x:Name = "prod3"
+                            Source = "menu4.jpeg"
+                            Clicked = "ClickedProd3"
+                            Padding = "20"
+                            HeightRequest = "150"
+                            WidthRequest = "150"
+                            Aspect = "AspectFill"
+                            CornerRadius = "100"/>
+                        <Label
+                            Text = "Bebida Tres"
+                            FontAttributes = "Bold"
+                            FontSize = "17"
+                            HorizontalOptions = "Center"/>
+                    </VerticalStackLayout>
+                </Grid>
+
+                <Grid
+                    Grid.Row = "3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition
+                            Height = "40"/>
+                        <RowDefinition
+                            Height = "80"/>
+                        <RowDefinition
+                            Height = "*"/>
+                    </Grid.RowDefinitions>
+
+                    <Label
+                        Text = "RECOMPENSAS DISPONIBLES"
+                        FontSize = "15"
+                        TextColor = "DarkGray"
+                        FontAttributes = "Bold"
+                        HorizontalOptions = "Start"
+                        VerticalOptions = "Center"
+                        Padding = "15"/>
+
+                    <HorizontalStackLayout
+                        Grid.Row = "1"
+                        Padding = "15">
+                        <Frame
+                            BorderColor = "Gray"
+                            CornerRadius = "20"
+                            HeightRequest = "80"
+                            WidthRequest = "250"
+                            HorizontalOptions = "Start"
+                            IsClippedToBounds = "True"
+                            Margin = "25"
+                            VerticalOptions = "Start"
+                            BackgroundColor = "Gray">
+                            <HorizontalStackLayout>
+                                <Frame
+                                    BorderColor = "Transparent"
+                                    CornerRadius = "20"
+                                    HeightRequest = "40"
+                                    WidthRequest = "40"
+                                    HorizontalOptions = "Start"
+                                    IsClippedToBounds = "True"
+                                    Padding = "20, 0"
+                                    VerticalOptions = "Center">
+                                    <Image
+                                        Source = "cupon1.jpg"
+                                        Aspect = "AspectFit"
+                                        HeightRequest = "45"
+                                        WidthRequest = "45"
+                                        Margin = "0, 10"
+                                        HorizontalOptions = "Center"
+                                        VerticalOptions = "Center"/>
+                                </Frame>
+                                <VerticalStackLayout
+                                    VerticalOptions = "Start"
+                                    HorizontalOptions = "Start">
+                                    <Label
+                                        Text = "Cafedeldia"
+                                        FontSize = "12"
+                                        TextColor = "Black"
+                                        FontAttributes = "Bold"
+                                        Margin = "20, 0, 0, 0"/>
+                                    <Label
+                                        Text = "Expira: 21/02/21"
+                                        FontSize = "12"
+                                        TextColor = "DarkGray"
+                                        Margin = "20, 0, 0, 0"/>
+                                </VerticalStackLayout>
+                            </HorizontalStackLayout>
+                        </Frame>
+
+                        <Frame
+                            BorderColor = "Gray"
+                            CornerRadius = "20"
+                            HeightRequest = "80"
+                            WidthRequest = "250"
+                            HorizontalOptions = "Start"
+                            IsClippedToBounds = "True"
+                            Margin = "25"
+                            VerticalOptions = "Start"
+                            BackgroundColor = "Gray">
+                            <HorizontalStackLayout>
+                                <Frame
+                                    BorderColor = "Transparent"
+                                    CornerRadius = "20"
+                                    HeightRequest = "40"
+                                    WidthRequest = "40"
+                                    HorizontalOptions = "Start"
+                                    IsClippedToBounds = "True"
+                                    Padding = "20, 0"
+                                    VerticalOptions = "Center">
+                                    <Image
+                                        Source = "cupon2.jpg"
+                                        Aspect = "AspectFit"
+                                        HeightRequest = "45"
+                                        WidthRequest = "45"
+                                        Margin = "0, 10"
+                                        HorizontalOptions = "Center"
+                                        VerticalOptions = "Center"/>
+                                </Frame>
+                                <VerticalStackLayout
+                                    VerticalOptions = "Start"
+                                    HorizontalOptions = "Start">
+                                    <Label
+                                        Text = "Beb o Pan Gold(2)"
+                                        FontSize = "12"
+                                        TextColor = "Black"
+                                        FontAttributes = "Bold"
+                                        Margin = "20, 0, 0, 0"/>
+                                    <Label
+                                        Text = "Expira: 15/12/21"
+                                        FontSize = "12"
+                                        TextColor = "DarkGray"
+                                        Margin = "20, 0, 0, 0"/>
+                                </VerticalStackLayout>
+                            </HorizontalStackLayout>
+                        </Frame>
+                    </HorizontalStackLayout>
+
+                    <Label
+                        x:Name = "lblTotal"
+                        Text = "Total....................$  "
+                        Style = "{StaticResource Headline}"
+                        SemanticProperties.HeadingLevel = "Level1"
+                        Grid.ColumnSpan = "4"
+                        VerticalOptions = "Center"
+                        HorizontalOptions = "End"
+                        Padding = "0, 0, 0, 25"
+                        Grid.Row = "2"/>
+                </Grid>
+            </Grid>
+        </ScrollView>
     </ContentPage>
 </TabbedPage>
