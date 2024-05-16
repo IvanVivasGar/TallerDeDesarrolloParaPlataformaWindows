@@ -43,7 +43,7 @@
                     />
             </HorizontalStackLayout>
 
-            <Frame 
+            <Frame
                 CornerRadius="10"
                 Padding="1"
                 IsClippedToBounds="True"
