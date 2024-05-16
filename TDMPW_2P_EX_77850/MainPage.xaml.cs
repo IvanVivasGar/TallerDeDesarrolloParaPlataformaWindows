@@ -64,4 +64,3 @@ public partial class MainPage : TabbedPage
 		this.lblTotal.Text = "Total....................$  " + acumuladorPrecio + ".00    ";
 	}
 }
-
