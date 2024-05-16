@@ -47,169 +47,171 @@
     <ContentPage
         Title = "Hobbies"
         IconImageSource = "hobbie.png">
-        <VerticalStackLayout>
-            <Frame
-                CornerRadius = "30"
-                Margin = "25, 25, 25, 0"
-                BackgroundColor = "Transparent"
-                BorderColor = "Gray">
-                <VerticalStackLayout>
-                    <Label
-                        Text = "Nombre"
-                        HorizontalOptions = "Center"
-                        FontFamily = "Got"
-                        FontSize = "30"
-                        Padding = "20"
-                        x:Name = "lblNameHobbies"/>
-                    <BoxView
-                            HeightRequest="2"
-                            BackgroundColor="Gray"
-                            HorizontalOptions="FillAndExpand"
-                            WidthRequest = "500"/>
+        <ScrollView>
+            <VerticalStackLayout>
+                <Frame
+                    CornerRadius = "30"
+                    Margin = "25, 25, 25, 0"
+                    BackgroundColor = "Transparent"
+                    BorderColor = "Gray">
+                    <VerticalStackLayout>
+                        <Label
+                            Text = "Nombre"
+                            HorizontalOptions = "Center"
+                            FontFamily = "Got"
+                            FontSize = "30"
+                            Padding = "20"
+                            x:Name = "lblNameHobbies"/>
+                        <BoxView
+                                HeightRequest="2"
+                                BackgroundColor="Gray"
+                                HorizontalOptions="FillAndExpand"
+                                WidthRequest = "500"/>
 
-                    <Label
-                        Text = "Hobbies"
-                        FontFamily = "Got"
-                        FontSize = "20"
+                        <Label
+                            Text = "Hobbies"
+                            FontFamily = "Got"
+                            FontSize = "20"
+                            HorizontalOptions = "Start"
+                            Padding = "25, 25, 0, 15"/>
+                        <HorizontalStackLayout
+                            Padding = "15"
+                            HorizontalOptions = "Start">
+                            <Image
+                                Source = "barca.jpg"
+                                HeightRequest = "50"
+                                WidthRequest = "50"
+                                Aspect = "AspectFill"
+                                VerticalOptions = "Center"
+                                HorizontalOptions = "Start"/>
+                            <Label
+                                Text = "FC Barcelona"
+                                VerticalOptions = "Center"
+                                FontFamily = "Got"
+                                FontSize = "15"
+                                Padding = "20, 0, 0, 0"/>
+                        </HorizontalStackLayout>
+
+                        <HorizontalStackLayout
+                            Padding = "15"
+                            HorizontalOptions = "Start">
+                            <Image
+                                Source = "cinema.jpg"
+                                HeightRequest = "50"
+                                WidthRequest = "50"
+                                Aspect = "AspectFill"
+                                VerticalOptions = "Center"
+                                HorizontalOptions = "Start"/>
+                            <Label
+                                Text = "Peliculas y Series"
+                                VerticalOptions = "Center"
+                                FontFamily = "Got"
+                                FontSize = "15"
+                                Padding = "20, 0, 0, 0"/>
+                        </HorizontalStackLayout>
+
+                        <HorizontalStackLayout
+                            Padding = "15"
+                            HorizontalOptions = "Start">
+                            <Image
+                                Source = "videogames.jpg"
+                                HeightRequest = "50"
+                                WidthRequest = "50"
+                                Aspect = "AspectFill"
+                                VerticalOptions = "Center"
+                                HorizontalOptions = "Start"/>
+                            <Label
+                                Text = "Videojuegos"
+                                VerticalOptions = "Center"
+                                FontFamily = "Got"
+                                FontSize = "15"
+                                Padding = "20, 0, 0, 0"/>
+                        </HorizontalStackLayout>
+
+                        <Label
+                            Text = "Nivel"
+                            FontFamily = "Got"
+                            FontSize = "20"
+                            HorizontalOptions = "Start"
+                            Padding = "25, 25, 0, 15"/>
+
+                        <HorizontalStackLayout>
+                            <Label
+                                x:Name = "lblValue1"
+                                Text = "0"
+                                FontSize = "15"
+                                Padding = "15, 0, 15, 0"
+                                VerticalOptions = "Center"
+                                WidthRequest = "50"/>
+                            <Slider
+                                Minimum = "1"
+                                Maximum = "10"
+                                BackgroundColor = "Gray"
+                                Value = "2"
+                                x:Name = "sldr1"
+                                ValueChanged = "OnSldChange1"
+                                MinimumTrackColor = "Orange"
+                                ThumbColor = "Gray"
+                                MaximumTrackColor = "White"
+                                WidthRequest = "500"/>
+                        </HorizontalStackLayout>
+
+                        <HorizontalStackLayout>
+                            <Label
+                                x:Name = "lblValue2"
+                                Text = "0"
+                                FontSize = "15"
+                                Padding = "15, 0, 15, 0"
+                                VerticalOptions = "Center"
+                                WidthRequest = "50"/>
+                            <Slider
+                                Minimum = "1"
+                                Maximum = "10"
+                                BackgroundColor = "Gray"
+                                Value = "2"
+                                x:Name = "sldr2"
+                                ValueChanged = "OnSldChange2"
+                                MinimumTrackColor = "Orange"
+                                ThumbColor = "Gray"
+                                MaximumTrackColor = "White"
+                                WidthRequest = "500"/>
+                        </HorizontalStackLayout>
+
+                        <HorizontalStackLayout>
+                            <Label
+                                x:Name = "lblValue3"
+                                Text = "0"
+                                FontSize = "15"
+                                Padding = "15, 0, 15, 0"
+                                VerticalOptions = "Center"
+                                WidthRequest = "50"/>
+                            <Slider
+                                Minimum = "1"
+                                Maximum = "10"
+                                BackgroundColor = "Gray"
+                                Value = "2"
+                                x:Name = "sldr3"
+                                ValueChanged = "OnSldChange3"
+                                MinimumTrackColor = "Orange"
+                                ThumbColor = "Gray"
+                                MaximumTrackColor = "White"
+                                WidthRequest = "500"/>
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame
+                    Margin = "15, 0, 0, 0"
+                    BackgroundColor = "Transparent"
+                    BorderColor = "Transparent">
+                    <Entry
+                        x:Name = "nameEntry"
+                        Text = "Ingrese su nombre"
+                        WidthRequest = "150"
                         HorizontalOptions = "Start"
-                        Padding = "25, 25, 0, 15"/>
-                    <HorizontalStackLayout
-                        Padding = "15"
-                        HorizontalOptions = "Start">
-                        <Image
-                            Source = "barca.jpg"
-                            HeightRequest = "50"
-                            WidthRequest = "50"
-                            Aspect = "AspectFill"
-                            VerticalOptions = "Center"
-                            HorizontalOptions = "Start"/>
-                        <Label
-                            Text = "FC Barcelona"
-                            VerticalOptions = "Center"
-                            FontFamily = "Got"
-                            FontSize = "15"
-                            Padding = "20, 0, 0, 0"/>
-                    </HorizontalStackLayout>
-
-                    <HorizontalStackLayout
-                        Padding = "15"
-                        HorizontalOptions = "Start">
-                        <Image
-                            Source = "cinema.jpg"
-                            HeightRequest = "50"
-                            WidthRequest = "50"
-                            Aspect = "AspectFill"
-                            VerticalOptions = "Center"
-                            HorizontalOptions = "Start"/>
-                        <Label
-                            Text = "Peliculas y Series"
-                            VerticalOptions = "Center"
-                            FontFamily = "Got"
-                            FontSize = "15"
-                            Padding = "20, 0, 0, 0"/>
-                    </HorizontalStackLayout>
-
-                    <HorizontalStackLayout
-                        Padding = "15"
-                        HorizontalOptions = "Start">
-                        <Image
-                            Source = "videogames.jpg"
-                            HeightRequest = "50"
-                            WidthRequest = "50"
-                            Aspect = "AspectFill"
-                            VerticalOptions = "Center"
-                            HorizontalOptions = "Start"/>
-                        <Label
-                            Text = "Videojuegos"
-                            VerticalOptions = "Center"
-                            FontFamily = "Got"
-                            FontSize = "15"
-                            Padding = "20, 0, 0, 0"/>
-                    </HorizontalStackLayout>
-
-                    <Label
-                        Text = "Nivel"
-                        FontFamily = "Got"
-                        FontSize = "20"
-                        HorizontalOptions = "Start"
-                        Padding = "25, 25, 0, 15"/>
-
-                    <HorizontalStackLayout>
-                        <Label
-                            x:Name = "lblValue1"
-                            Text = "0"
-                            FontSize = "15"
-                            Padding = "15, 0, 15, 0"
-                            VerticalOptions = "Center"
-                            WidthRequest = "50"/>
-                        <Slider
-                            Minimum = "1"
-                            Maximum = "10"
-                            BackgroundColor = "Gray"
-                            Value = "2"
-                            x:Name = "sldr1"
-                            ValueChanged = "OnSldChange1"
-                            MinimumTrackColor = "Orange"
-                            ThumbColor = "Gray"
-                            MaximumTrackColor = "White"
-                            WidthRequest = "500"/>
-                    </HorizontalStackLayout>
-
-                    <HorizontalStackLayout>
-                        <Label
-                            x:Name = "lblValue2"
-                            Text = "0"
-                            FontSize = "15"
-                            Padding = "15, 0, 15, 0"
-                            VerticalOptions = "Center"
-                            WidthRequest = "50"/>
-                        <Slider
-                            Minimum = "1"
-                            Maximum = "10"
-                            BackgroundColor = "Gray"
-                            Value = "2"
-                            x:Name = "sldr2"
-                            ValueChanged = "OnSldChange2"
-                            MinimumTrackColor = "Orange"
-                            ThumbColor = "Gray"
-                            MaximumTrackColor = "White"
-                            WidthRequest = "500"/>
-                    </HorizontalStackLayout>
-
-                    <HorizontalStackLayout>
-                        <Label
-                            x:Name = "lblValue3"
-                            Text = "0"
-                            FontSize = "15"
-                            Padding = "15, 0, 15, 0"
-                            VerticalOptions = "Center"
-                            WidthRequest = "50"/>
-                        <Slider
-                            Minimum = "1"
-                            Maximum = "10"
-                            BackgroundColor = "Gray"
-                            Value = "2"
-                            x:Name = "sldr3"
-                            ValueChanged = "OnSldChange3"
-                            MinimumTrackColor = "Orange"
-                            ThumbColor = "Gray"
-                            MaximumTrackColor = "White"
-                            WidthRequest = "500"/>
-                    </HorizontalStackLayout>
-                </VerticalStackLayout>
-            </Frame>
-            <Frame
-                Margin = "15, 0, 0, 0"
-                BackgroundColor = "Transparent"
-                BorderColor = "Transparent">
-                <Entry
-                    x:Name = "nameEntry"
-                    Text = "Ingrese su nombre"
-                    WidthRequest = "150"
-                    HorizontalOptions = "Start"
-                    TextChanged = "EntryChanged"/>
-            </Frame>
-        </VerticalStackLayout>
+                        TextChanged = "EntryChanged"/>
+                </Frame>
+            </VerticalStackLayout>
+        </ScrollView>
     </ContentPage>
 
     <ContentPage

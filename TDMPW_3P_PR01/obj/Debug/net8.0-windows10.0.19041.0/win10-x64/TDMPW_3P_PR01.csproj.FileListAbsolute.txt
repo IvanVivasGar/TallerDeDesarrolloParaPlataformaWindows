@@ -408,3 +408,18 @@ C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaW
 C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR01\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\hobbie.scale-100.png
 C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR01\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\hobbie2.scale-100.png
 C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR01\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\hobbie.scale-100.png
+C:\Users\Ivan Vivas\Documents\LocalRepositories\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR01\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\TDMPW_3P_PR01.csproj.AssemblyReference.cache
+C:\Users\Ivan Vivas\Documents\LocalRepositories\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR01\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
+C:\Users\Ivan Vivas\Documents\LocalRepositories\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR01\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.inputs
+C:\Users\Ivan Vivas\Documents\LocalRepositories\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR01\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
+C:\Users\Ivan Vivas\Documents\LocalRepositories\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR01\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
+C:\Users\Ivan Vivas\Documents\LocalRepositories\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR01\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
+C:\Users\Ivan Vivas\Documents\LocalRepositories\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR01\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
+C:\Users\Ivan Vivas\Documents\LocalRepositories\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR01\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+C:\Users\Ivan Vivas\Documents\LocalRepositories\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR01\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+C:\Users\Ivan Vivas\Documents\LocalRepositories\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR01\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+C:\Users\Ivan Vivas\Documents\LocalRepositories\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR01\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+C:\Users\Ivan Vivas\Documents\LocalRepositories\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR01\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\TDMPW_3P_PR01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan Vivas\Documents\LocalRepositories\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR01\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\TDMPW_3P_PR01.dll
+C:\Users\Ivan Vivas\Documents\LocalRepositories\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR01\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\refint\TDMPW_3P_PR01.dll
+C:\Users\Ivan Vivas\Documents\LocalRepositories\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR01\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\TDMPW_3P_PR01.pdb
