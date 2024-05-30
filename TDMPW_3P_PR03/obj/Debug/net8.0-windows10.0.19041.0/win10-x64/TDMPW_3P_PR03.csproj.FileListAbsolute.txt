@@ -396,3 +396,15 @@ C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaW
 C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR03\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR03\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR03\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR03\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\imagen5.scale-100.jpeg
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR03\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\imagen2.scale-100.jpeg
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR03\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\imagen4.scale-100.jpeg
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR03\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\imagen1.scale-100.jpeg
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR03\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\imagen3.scale-100.jpeg
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR03\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imagen5.scale-100.jpeg
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR03\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imagen2.scale-100.jpeg
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR03\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imagen4.scale-100.jpeg
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR03\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imagen1.scale-100.jpeg
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR03\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imagen3.scale-100.jpeg
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR03\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\college.ttf
+C:\Users\Ivan Vivas\Documents\Repositorios Git\TallerDeDesarrolloParaPlataformaWindows\TDMPW_3P_PR03\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\college.ttf

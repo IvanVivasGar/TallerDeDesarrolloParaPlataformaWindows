@@ -25,13 +25,21 @@
                     HorizontalOptions="Center"
                     TextColor="White"
                     Margin="15"/>
+                <Image
+                    Source="..."
+                    HeightRequest="400"
+                    WidthRequest="800"
+                    Aspect="AspectFill"
+                    x:Name="imgRandom"
+                    HorizontalOptions="Center"/>
                 <Label
-                    Text = "Fall Out Boy"
+                    Text = "Frase Random"
                     FontSize = "30"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     TextColor="White"
-                    Margin="15"/>
+                    Margin="15"
+                    x:Name="lblFraseRandom"/>
                 <Button
                     Grid.Row="1"
                     BackgroundColor="Black"
@@ -40,8 +48,7 @@
                     Clicked = "btnFondo_Clicked"
                     TextColor = "White"
                     FontAttributes = "Bold"
-                    FontSize = "15"
-                    HeightRequest="200"/>
+                    FontSize = "15"/>
             </VerticalStackLayout>
 
             <Grid

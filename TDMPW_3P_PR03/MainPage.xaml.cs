@@ -56,6 +56,8 @@ public partial class MainPage : ContentPage
 		};
 
 		grdBG.Background = gradient;
+		lblFraseRandom.Text = GetRandomStringText();
+		imgRandom.Source = GetImageSource();
 	}
 
 	private List<Color> GetColorList(Color startColor, Color endColor, int steps){
@@ -72,6 +74,38 @@ public partial class MainPage : ContentPage
 		return colorList;
 	}
 
+	private string GetImageSource(){
+		string imageSource;
+		Random random = new Random();
+		imageSource = "imagen" + random.Next(1, 6) + ".jpeg";
+		return imageSource;
+	}
+
+	private string GetRandomStringText(){
+		string stringText = "";
+		Random random = new Random();
+		int i = random.Next(1, 6);
+
+		switch(i){
+			case 1:
+				stringText = "Horizon Forbidden West";
+				break;
+			case 2:
+				stringText = "Cyberpunk 2077";
+				break;
+			case 3:
+				stringText = "Hogwarts Legacy";
+				break;
+			case 4:
+				stringText = "A Plague Tale: Requiem";
+				break;
+			case 5:
+				stringText = "Tomb Raider";
+				break;
+		}
+		return stringText;
+	}
+
 	private string ColorToHex(Color color){
 		int r = (int)(color.Red * 255);
 		int g = (int)(color.Green * 255);
@@ -80,4 +114,3 @@ public partial class MainPage : ContentPage
 		return $"#{r:X2}{g:X2}{b:X2}";
 	}
 }
-
