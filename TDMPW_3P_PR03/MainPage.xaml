@@ -40,8 +40,10 @@
                     Clicked = "btnFondo_Clicked"
                     TextColor = "White"
                     FontAttributes = "Bold"
-                    FontSize = "15"/>
-            <VerticalStackLayout/>
+                    FontSize = "15"
+                    HeightRequest="200"/>
+            </VerticalStackLayout>
+
             <Grid
                 RowDefinitions=".5*, .5*"
                 ColumnDefinitions=".33*, .33*, .33*"
