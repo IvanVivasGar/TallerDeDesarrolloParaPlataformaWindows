@@ -1,4 +1,5 @@
-﻿namespace TDMPW_3P_EJ03;
+﻿using TDMPW_3P_EJ03.Views;
+namespace TDMPW_3P_EJ03;
 
 public partial class App : Application
 {
@@ -6,6 +7,6 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		MainPage = new AppShell();
+		MainPage = new PersonaView();
 	}
 }
