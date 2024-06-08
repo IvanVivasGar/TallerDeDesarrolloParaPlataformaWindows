@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TDMPW_3P_EX_77850")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f0e0be6bea62bf0d25555ff4a8f23bf97aaaf82a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ff11f181d3303db25f87bc39e1871091836e3f72")]
 [assembly: System.Reflection.AssemblyProductAttribute("TDMPW_3P_EX_77850")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TDMPW_3P_EX_77850")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
