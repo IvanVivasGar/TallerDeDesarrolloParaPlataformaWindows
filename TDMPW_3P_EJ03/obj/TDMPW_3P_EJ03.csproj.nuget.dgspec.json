@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ivan Vivas\\Documents\\Repositorios Git\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_3P_EJ03\\TDMPW_3P_EJ03.csproj": {}
+    "C:\\Users\\Ivan Vivas\\Documents\\LocalRepositories\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_3P_EJ03\\TDMPW_3P_EJ03.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ivan Vivas\\Documents\\Repositorios Git\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_3P_EJ03\\TDMPW_3P_EJ03.csproj": {
+    "C:\\Users\\Ivan Vivas\\Documents\\LocalRepositories\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_3P_EJ03\\TDMPW_3P_EJ03.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ivan Vivas\\Documents\\Repositorios Git\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_3P_EJ03\\TDMPW_3P_EJ03.csproj",
+        "projectUniqueName": "C:\\Users\\Ivan Vivas\\Documents\\LocalRepositories\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_3P_EJ03\\TDMPW_3P_EJ03.csproj",
         "projectName": "TDMPW_3P_EJ03",
-        "projectPath": "C:\\Users\\Ivan Vivas\\Documents\\Repositorios Git\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_3P_EJ03\\TDMPW_3P_EJ03.csproj",
+        "projectPath": "C:\\Users\\Ivan Vivas\\Documents\\LocalRepositories\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_3P_EJ03\\TDMPW_3P_EJ03.csproj",
         "packagesPath": "C:\\Users\\Ivan Vivas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ivan Vivas\\Documents\\Repositorios Git\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_3P_EJ03\\obj\\",
+        "outputPath": "C:\\Users\\Ivan Vivas\\Documents\\LocalRepositories\\TallerDeDesarrolloParaPlataformaWindows\\TDMPW_3P_EJ03\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -65,11 +65,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -112,11 +112,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -160,11 +160,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.21, )"
             }
           },
           "imports": [
