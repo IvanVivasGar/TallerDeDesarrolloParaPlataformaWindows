@@ -28,12 +28,12 @@
             HorizontalOptions="Center"
             VerticalOptions="Center"/>
         <Label
-            Text="Rubros"
+            Text="Valor de Parciales"
             HorizontalOptions="Center"
             Grid.Row="1"
             VerticalOptions="Center"/>
         <Label
-            Text="Valor de Rubros"
+            Text="Calificaciones de primeros dos parciales"
             HorizontalOptions="Center"
             Grid.Row="2"
             VerticalOptions="Center"/>
@@ -75,7 +75,7 @@
             Margin="20"
             VerticalOptions="Fill"
             HorizontalOptions="Fill"
-            Placeholder="Ingresa los valores de los semestres separados por comas"
+            Placeholder="Ingresa los valores de los parciales separados por comas"
             x:Name="entryValoresParciales"/>
         <Label
             Text="{Binding Semestre.ValorParciales}"

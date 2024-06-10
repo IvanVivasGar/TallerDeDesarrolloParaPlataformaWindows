@@ -45,5 +45,4 @@
 
     <views:SemestreView
         Title="SEMESTRE"/>
-
 </TabbedPage>
