@@ -33,13 +33,17 @@
                     Source="grades.png"
                     HorizontalOptions="Center"
                     Aspect="AspectFill"
-                    HeightRequest="300"
-                    WidthRequest="300"
+                    HeightRequest="500"
+                    WidthRequest="500"
                     Margin="25"/>
             </VerticalStackLayout>
         </Grid>
     </ContentPage>
 
-    <views:MateriaView/>
+    <views:MateriaView
+        Title="MATERIA"/>
+
+    <views:SemestreView
+        Title="SEMESTRE"/>
 
 </TabbedPage>

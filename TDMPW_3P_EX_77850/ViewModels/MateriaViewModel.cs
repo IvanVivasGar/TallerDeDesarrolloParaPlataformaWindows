@@ -12,9 +12,9 @@ public partial class MateriaViewModel : ObservableObject
     public MateriaViewModel(){
         Materia = new Materia{
             Nombre = "Materia",
-            Rubros = ["Trabajos", "Proyectos", "Examen"],
-            ValorRubros = [30, 30, 40],
-            CalificacionRubros = [10, 8, 9]
+            Rubros = "Examen, Proyecto, Trabajos",
+            ValorRubros = "30, 30, 40",
+            CalificacionRubros = "10, 10, 10"
         };
     }
 
@@ -25,29 +25,20 @@ public partial class MateriaViewModel : ObservableObject
     }
 
     [RelayCommand]
-    private void ActualizarRubros(IList<string> nuevosRubros){
-        Materia.Rubros = nuevosRubros.ToList();
+    private void ActualizarRubros(String nuevosRubros){
+        Materia.Rubros = nuevosRubros;
         OnPropertyChanged(nameof(Materia));
     }
 
     [RelayCommand]
-    private void ActualizarValorRubros(IList<float> nuevosValoresRubros){
-        Materia.ValorRubros = nuevosValoresRubros.ToList();
+    private void ActualizarValorRubros(String nuevosValoresRubros){
+        Materia.ValorRubros = nuevosValoresRubros;
         OnPropertyChanged(nameof(Materia));
     }
 
     [RelayCommand]
-    private void ActualizarCalificacionRubros(IList<float> nuevasCalificacionesRubros){
-        Materia.CalificacionRubros = nuevasCalificacionesRubros.ToList();
+    private void ActualizarCalificacionRubros(String nuevasCalificacionesRubros){
+        Materia.CalificacionRubros = nuevasCalificacionesRubros;
         OnPropertyChanged(nameof(Materia));
     }
-
-    /*
-    private void EjecutarMultiplesComandos(string nuevoNombre, IList<string> nuevosRubros, IList<float> nuevosValoresRubros, IList<float> nuevasCalificacionesRubros){
-        ActualizarNombre(nuevoNombre);
-        ActualizarRubros(nuevosRubros);
-        ActualizarValorRubros(nuevosValoresRubros);
-        ActualizarCalificacionRubros(nuevasCalificacionesRubros);
-    }
-    */
 }

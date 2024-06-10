@@ -2,7 +2,7 @@
 using CommunityToolkit.Mvvm.Input;
 using TDMPW_3P_EX_77850.Models;
 
-namespace TDMPW_3P_EX_77850.Models;
+namespace TDMPW_3P_EX_77850.ViewModels;
 
 public partial class SemestreViewModel : ObservableObject
 {
@@ -12,8 +12,8 @@ public partial class SemestreViewModel : ObservableObject
     public SemestreViewModel(){
         Semestre = new Semestre{
             Nombre = "Materia",
-            ValorParciales = [20, 20, 60],
-            CalificacionParciales = [8, 9, 7]
+            ValorParciales = "20, 20, 60",
+            CalificacionParciales = "8, 9, 7"
         };
     }
 
@@ -24,14 +24,14 @@ public partial class SemestreViewModel : ObservableObject
     }
 
     [RelayCommand]
-    private void ActualizarValorParciales(IList<float> nuevosValoresParciales){
-        Semestre.ValorParciales = nuevosValoresParciales.ToList();
+    private void ActualizarValorParciales(String nuevosValoresParciales){
+        Semestre.ValorParciales = nuevosValoresParciales;
         OnPropertyChanged(nameof(Semestre));
     }
 
     [RelayCommand]
-    private void ActualizarCalificacionParciales(IList<float> nuevasCalificacionesParciales){
-        Semestre.CalificacionParciales = nuevasCalificacionesParciales.ToList();
+    private void ActualizarCalificacionParciales(String nuevasCalificacionesParciales){
+        Semestre.CalificacionParciales = nuevasCalificacionesParciales;
         OnPropertyChanged(nameof(Semestre));
     }
 }
